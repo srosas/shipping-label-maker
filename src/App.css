@@ -1,9 +1,5 @@
-input {
-  margin-left: 2%;
-  margin-bottom: 6%;
-  border: 2px solid black;
-}
 
+/* Label Styles */
 .shipping-label {
   width: 500px;
   height: 100%;
@@ -16,7 +12,7 @@ input {
 .main-label {
   margin-left: 10%;
 }
-
+/* Wizard styles */
 .wizard-container {
   width: 500px;
   height: 100%;
@@ -26,7 +22,7 @@ input {
   flex-direction: column;
   align-items: center;
 }
-
+/* Progress Bar styles */
 .progress-bar {
   width: 400px;
   height: 10px;
@@ -41,6 +37,7 @@ input {
   background-color: lightgray;
   position: absolute;
 }
+/* Form styles */
 .form{
   height: 50%;
   margin-bottom: 5%;
@@ -69,6 +66,13 @@ input {
   width: 60%;
 }
 
+input {
+  margin-left: 2%;
+  margin-bottom: 6%;
+  border: 2px solid black;
+}
+
+/* Button Styles */
 .nav-buttons {
   width: 50%;
   display: flex;

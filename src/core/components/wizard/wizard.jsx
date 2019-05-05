@@ -13,7 +13,6 @@ class Wizard extends Component {
     super(props);
     this.state = {
       wizardContext: this.props.wizardContext,
-      showConfirmBtn: false,
       currentStep: 1,
     };
 
